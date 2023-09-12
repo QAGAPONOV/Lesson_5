@@ -5,7 +5,7 @@ public class Lesson_5_1 {
         Plate plate = new Plate(70, 40);
         System.out.println(plate);
 
-        // feeding cats first time
+        
         for (Cat cat : cats) {
             cat.eat(plate);
             System.out.println(cat);
